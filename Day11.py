@@ -21,10 +21,6 @@ for colNum in range(0, nCols):
     if "#" not in [i[colNum] for i in input_grid]:
         empty_cols.append(colNum)
 
-nRows = len(input_list)
-nCols = len(input_list[0])
-
-
 def generateGalaxyCoords(expansion_factor):
     galaxies = set()
     row = 0
